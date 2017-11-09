@@ -1,0 +1,76 @@
+metaData:
+[
+        #MetaData Of Country
+        {   'ALPHA2Code': 'AR',
+        'CountryCode': 'ARG',
+        'CountryIncomeGroup': 'Upper middle income',
+        'CountryLongName': 'Argentine Republic',
+        'CountryRegion': 'Latin America & Caribbean',
+        'CountryShortName': 'ARGENTINA',
+        'CountrySpecialNotes': '',
+        'CountryTableName': 'Argentina',
+        'CurrencyUnit': 'Argentine peso',
+        'OtherRegionalGroup': '',
+        'WB2Code': 'AR'},
+
+        #MetaData Of Indicator
+        {   'AggregationMethod': 'Seasonally adjusted (X-12 ARIMA).\n'
+                             'X-12 ARIMA: Autoregressive Integrated Moving '
+                             'Average, used for seasonally adjusted values and '
+                             'forecasts in a time series.',
+        'BasePeriod': '',
+        'DataSetName': 'LMW',
+        'DataSetcode': 'LMW',
+        'DerivationMethod': '',
+        'GeneralComment': '',
+        'IndicatorCode': 'LMW_1',
+        'IndicatorLongName': 'Consumption: millions of US$, s.a.',
+        'IndicatorName': 'Consumption: millions of US$, s.a.',
+        'IndicatorShortDef': 'Consumption: millions of US$, s.a.\n'
+                             'Definition for this indicator may vary depending '
+                             'on the country. See Other Notes for details.',
+        'IndicatorSource': 'Central Bank or national official '
+                           'sources/agencies. Please see Other Notes for '
+                           'details or visit the contributing database: <a '
+                           'target="_blank" '
+                           'href="http://www.iadb.org/en/research-and-data/latin-macro-watch/latin-macro-watch-country-profiles,18579.html">LMW</a>.',
+        'IndicatorSynonym': '',
+        'LimitationException': '',
+        'OtherNote': '',
+        'Periodicity': 'Not Available',
+        'PowerCode': '',
+        'PredefinedCountry': '0',
+        'PredefinedRegion': '1',
+        'PredefinedTopic': '1',
+        'ReferencePeriod': '',
+        'SourceComment': '',
+        'SubTopicName': 'National Accounts',
+        'TopicID': None,
+        'TopicName': 'Economy',
+        'UOM': 'millions of US$'}
+
+
+        #MetaData Of Topic
+        {   'SubTopic': [   { 'SubTopicCode': 'AGRPOL',
+                            'SubTopicName': 'Agricultural Policy'},
+                            { 'SubTopicCode': 'Balance of Payments',
+                            'SubTopicName': 'Balance of Payments'},
+                        {'SubTopicCode': 'Wages', 'SubTopicName': 'Wages'},
+                        {'SubTopicCode': 'WATER', 'SubTopicName': 'Water'}],
+        'TopicCode': 'Economy',
+        'TopicDesc': 'Data in this topic cover measures of economic growth, '
+                     'such as gross domestic product (GDP), commodity price, '
+                     'wage indices, and industrial production. It also '
+                     'includes indicators representing factors relevant to '
+                     'economic growth, such as capital stock, employment, '
+                     'investment, savings, consumption, government spending, '
+                     'imports, and exports, and international migration and '
+                     "workers' remittances, which affect growth and social "
+                     'welfare in both sending and receiving countries.',
+        'TopicName': 'Economy'},
+
+        #MetaData of SubTopic
+        {   'SubTopicCode': 'National Accounts',
+       'SubTopicName': 'National Accounts',
+       'SubtopicDesc': ' ',
+       'TopicName': 'Economy'}]

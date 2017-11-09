@@ -1,0 +1,81 @@
+name: idbdata
+channels:
+- defaults
+dependencies:
+- _nb_ext_conf=0.4.0=py36_1
+- anaconda-client=1.6.5=py36hd36550c_0
+- asn1crypto=0.22.0=py36h8e79faa_1
+- bleach=2.0.0=py36h0a7e3d6_0
+- ca-certificates=2017.08.26=h94faf87_0
+- certifi=2017.7.27.1=py36h043bc9e_0
+- cffi=1.10.0=py36hae3d1b5_1
+- chardet=3.0.4=py36h420ce6e_1
+- clyent=1.2.2=py36hb10d595_1
+- colorama=0.3.9=py36h029ae33_0
+- cryptography=2.0.3=py36h123decb_1
+- decorator=4.1.2=py36he63a57b_0
+- entrypoints=0.2.3=py36hfd66bb0_2
+- html5lib=0.999999999=py36ha09b1f3_0
+- idna=2.6=py36h148d497_1
+- ipykernel=4.6.1=py36hbb77b34_0
+- ipython=6.1.0=py36h236ecc8_1
+- ipython_genutils=0.2.0=py36h3c5d0ee_0
+- ipywidgets=7.0.0=py36h2e74ada_0
+- jedi=0.10.2=py36hed927a0_0
+- jinja2=2.9.6=py36h10aa3a0_1
+- jsonschema=2.6.0=py36h7636477_0
+- jupyter_client=5.1.0=py36h9902a9a_0
+- jupyter_core=4.3.0=py36h511e818_0
+- markupsafe=1.0=py36h0e26971_1
+- mistune=0.7.4=py36h4874169_0
+- nb_anacondacloud=1.4.0=py36_0
+- nb_conda=2.2.0=py36_0
+- nb_conda_kernels=2.1.0=py36_0
+- nbconvert=5.3.1=py36h8dc0fde_0
+- nbformat=4.4.0=py36h3a5bc1b_0
+- nbpresent=3.0.2=py36_0
+- notebook=5.2.1=py36h4fb2ca6_0
+- openssl=1.0.2m=vc14h7f35f9e_0
+- pandoc=1.19.2.1=hb2460c7_1
+- pandocfilters=1.4.2=py36h3ef6317_1
+- pickleshare=0.7.4=py36h9de030f_0
+- pip=9.0.1=py36h226ae91_4
+- prompt_toolkit=1.0.15=py36h60b8f86_0
+- pycparser=2.18=py36hd053e01_1
+- pygments=2.2.0=py36hb010967_0
+- pymongo=3.4.0=py36_0
+- pyopenssl=17.2.0=py36h15ca2fc_0
+- pysocks=1.6.7=py36h698d350_1
+- python=3.6.3=h210ce5f_2
+- python-dateutil=2.6.1=py36h509ddcb_1
+- pytz=2017.2=py36h05d413f_1
+- pyyaml=3.12=py36h1d1928f_1
+- pyzmq=16.0.2=py36h38c27d9_2
+- requests=2.18.4=py36h4371aae_1
+- setuptools=36.5.0=py36h65f9e6e_0
+- simplegeneric=0.8.1=py36heab741f_0
+- six=1.11.0=py36h4db2310_1
+- testpath=0.3.1=py36h2698cfe_0
+- tornado=4.5.2=py36h57f6048_0
+- traitlets=4.3.2=py36h096827d_0
+- urllib3=1.22=py36h276f60a_0
+- vc=14=h2379b0c_2
+- vs2015_runtime=14.0.25123=hd4c4e62_2
+- wcwidth=0.1.7=py36h3d5aa90_0
+- webencodings=0.5.1=py36h67c50ae_1
+- wheel=0.29.0=py36h6ce6cde_1
+- widgetsnbextension=3.0.2=py36h364476f_1
+- win_inet_pton=1.0.1=py36he67d7fd_1
+- wincertstore=0.2=py36h7fe50ca_0
+- yaml=0.1.7=vc14hb31d195_1
+- pip:
+  - ipython-genutils==0.2.0
+  - jupyter-client==5.1.0
+  - jupyter-core==4.3.0
+  - nb-anacondacloud==1.4.0
+  - nb-conda==2.2.0
+  - nb-conda-kernels==2.1.0
+  - prompt-toolkit==1.0.15
+  - win-inet-pton==1.0.1
+prefix: C:\Users\user\Anaconda3\envs\idbdata
+
