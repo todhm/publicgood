@@ -6,8 +6,15 @@ import time
 import json
 
 class DataCrawler(object):
-    def __init__(self,col):
-        self.metaCol = col
+    def __init__(self,metaCol,dataCol):
+        self.metaCol = metaCol
+        self.dataCol = dataCol
+
+
+
+    # Effect: get the List of CountryCode
+    def getCountryCodeList(self):
+        self.metaCol.find("")
 
 
 
@@ -36,17 +43,26 @@ class DataCrawler(object):
 
     # Modifies: MongoDB
     #Effect: Crawling MetaData by metaType only data which is not exists.
-    def SaveNoDupMetaData(self,metaType,jsonData):
+    def saveNoDupMetaData(self,metaType,jsonData):
+        if metaType not in ['Country','Indicator','Topic','SubTopic']:
+            print("Not Matched MetaType")
+            return False
+
+        else:
+            metaKey = metaType + "Code"
+            for data in jsonData:
+                if metaKey not in data:  continue
+                self.metaCol.update({metaKey: data[metaKey]},data,upsert=True)
+
 
 
 
 if __name__ == "__main__":
-
     client = MongoClient("localhost")
     idbDB = client.idbDB
     metacol = idbDB.metadata
     dc = DataCrawler(metacol)
-    
+
     metaType = []
     metaType.append("country")
     metaType.append("topic")
